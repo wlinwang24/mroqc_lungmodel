@@ -1,0 +1,28 @@
+# RStudio state and local workspaces
+.RData
+.Rhistory
+.Ruserdata
+.Rproj.user/
+*.Rproj
+.DS_Store
+**/.DS_Store
+
+# Login keys / environment variables
+.Renviron
+.Rprofile.local
+*.pem
+*.key
+
+# Old rsconnect records point at prior hosting accounts
+rsconnect/
+
+# Do not accidentally commit patient-level analysis workspaces
+*.RData
+*.rda
+*.rdb
+*.sqlite
+*.db
+
+# Private model refits and analysis outputs stay outside deployment
+*_PRIVATE.rds
+*_backup_*.R
